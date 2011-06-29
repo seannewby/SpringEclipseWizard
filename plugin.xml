@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin> 
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Sean Spring Wizards"
+            id="NewFileWizard">
+      </category>
+      <wizard
+            category="NewFileWizard"
+            class="com.seannewby.eclipse.spring.wizards.New286SpringMVCPortletProjectWizard"
+            icon="icons/sample.gif"
+            id="com.seannewby.eclipse.spring.wizards.New286SpringMVCPortletProjectWizard"
+            name="Extend Basic 286 as Spring MVC Portlet"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>

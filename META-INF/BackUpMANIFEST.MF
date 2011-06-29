@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sean Newby Spring Plug in
+Bundle-SymbolicName: New286SpringMVCPortletProjectWizard; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.seannewby.eclipse.spring.wizards.Activator
+Bundle-Vendor: Sean Newby
+Bundle-Localization: plugin
+Require-Bundle: com.ibm.etools.portlet;bundle-version="[7.5.0,8.0.0)",
+ com.ibm.etools.portlet.facets;bundle-version="[7.5.0,8.0.0)",
+ com.ibm.icu;bundle-version="[3.4.4,4.0.0)",
+ org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.jdt.core;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.jdt.ui;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.jem.util;bundle-version="[2.0.0,3.0.0)",
+ org.eclipse.jem.workbench;bundle-version="[2.0.0,3.0.0)",
+ org.eclipse.jface;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.ui;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.ui.ide;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.ui.forms;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.jst.common.frameworks;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.jst.j2ee;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.jst.j2ee.core;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.jst.j2ee.ui;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.jst.j2ee.web;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.jst.server.core;bundle-version="[1.0.102,2.0.0)",
+ org.eclipse.jst.servlet.ui;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.wst.common.project.facet.core;bundle-version="[1.1.0,2.0.0)",
+ org.eclipse.wst.common.project.facet.ui;bundle-version="[1.1.0,2.0.0)",
+ org.eclipse.wst.common.environment;bundle-version="[1.0.100,1.1.0)",
+ org.eclipse.wst.common.frameworks;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.wst.common.frameworks.ui;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.wst.web.ui;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.wst.server.core;bundle-version="[1.0.102,2.0.0)",
+ org.eclipse.wst.sse.core;bundle-version="[1.1.0,1.2.0)",
+ org.eclipse.wst.xml.core;bundle-version="[1.1.0,1.2.0)",
+ com.ibm.etools.webtools.packagepreferences;bundle-version="[1.0.0,2.0.0)";resolution:=optional,
+ com.ibm.etools.portlet.wizard
+Eclipse-LazyStart: true

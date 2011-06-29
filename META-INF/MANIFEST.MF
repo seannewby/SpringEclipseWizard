@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sean Newby Spring Plug in
+Bundle-SymbolicName: New286SpringMVCPortletProjectWizard; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.seannewby.eclipse.spring.wizards.Activator
+Bundle-Vendor: Sean Newby
+Bundle-Localization: plugin
+Require-Bundle: com.ibm.etools.portlet,
+ com.ibm.etools.portlet.facets,
+ com.ibm.icu,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.ui,
+ org.eclipse.jem.util,
+ org.eclipse.jem.workbench,
+ org.eclipse.jface,
+ org.eclipse.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.forms,
+ org.eclipse.jst.common.frameworks,
+ org.eclipse.jst.j2ee,
+ org.eclipse.jst.j2ee.core,
+ org.eclipse.jst.j2ee.ui,
+ org.eclipse.jst.j2ee.web,
+ org.eclipse.jst.server.core,
+ org.eclipse.jst.servlet.ui,
+ org.eclipse.wst.common.project.facet.core,
+ org.eclipse.wst.common.project.facet.ui,
+ org.eclipse.wst.common.environment,
+ org.eclipse.wst.common.frameworks,
+ org.eclipse.wst.common.frameworks.ui,
+ org.eclipse.wst.web.ui,
+ org.eclipse.wst.server.core,
+ org.eclipse.wst.sse.core,
+ org.eclipse.wst.xml.core,
+ com.ibm.etools.webtools.packagepreferences;resolution:=optional,
+ com.ibm.etools.portlet.wizard
+Eclipse-LazyStart: true
